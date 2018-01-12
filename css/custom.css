@@ -1,0 +1,339 @@
+/*Custom CSS (some modifies Bootstrap, some doesn't)
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  color: #FEFBF3;
+}
+
+a {
+  color: #FBBF46;
+}
+
+a:hover {
+  color: #FBBF46;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-family: 'Slabo 27px', serif;
+  font-size: 26px;
+  color: #FFF;
+}
+
+.indent {
+  text-indent: 30px;
+}
+
+.white-text {
+  color: #FFFFFF;
+}
+
+.cream-text {
+  color: #FEFBF3;
+}
+
+.pink-text {
+  color: #E3AE94;
+}
+
+.yellow-text {
+  color: #FBBF46;
+}
+
+.blue-text {
+  color: #BBD5D0;
+}
+
+.purple-text {
+  color: #9BA5B0;
+}
+
+.navy-text {
+  color: #28394A;
+}
+
+.top-hello {
+  font-family: 'Vibur', cursive;
+  font-size: 45px;
+  color: #BBD5D0;
+  text-transform: lowercase;
+}
+
+.top-subtext {
+  font-family: 'Slabo 27px', serif;
+  font-size: 25px;
+  color: #FBBF46;
+  text-transform: uppercase;
+}
+
+.btn-resume {
+  border: 2px solid #BBD5D0;
+  color: #BBD5D0;
+  margin-top: 2px;
+  margin-left: 3px;
+}
+
+.btn-resume:hover {
+  border: 2px solid #a6c4be;
+  color: #a6c4be;
+}
+
+.btn-portfolio {
+  border: 2px solid #BBD5D0;
+  color: #BBD5D0;
+}
+
+.btn-portfolio:hover {
+  border: 2px solid #a6c4be;
+  color: #a6c4be;
+}
+
+.container-fluid {
+    padding: 120px 60px;
+}
+
+.foot {
+  padding: 40px 20px;
+}
+
+.bg-cream {
+  background-color: #FEFBF3;
+}
+
+.bg-pink {
+  background-color: #F9BFA3;
+}
+
+.bg-yellow {
+  background-color: #FBBF46;
+}
+
+.bg-blue {
+  background-color: #BBD5D0;
+}
+
+.bg-purple {
+  background-color: #9BA5B0;
+}
+
+.bg-navy {
+  background-color: #28394A;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #28394A;
+  z-index: 999;
+  border: 0;
+  font-size: 14px !important;
+  line-height: 1.42857143 !important;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  border-radius: 0;
+  padding: 0px;
+  min-height:40px !important;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: #FFF !important;
+  font-size: 14px !important;
+  padding-top:10px !important; padding-bottom:0 !important;
+  height: 40px;
+}
+
+.navbar-nav li a:hover{
+  color: #FFF !important;
+  background-color: #28394A !important;
+}
+
+.navbar-nav li.active a {
+  color: #28394A !important;
+  background-color: #FFF !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #28394A !important;
+  padding: 2 2;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.btn.outline {
+  background: none;
+  padding: 12px 22px;
+}
+
+.btn-navy {
+  background-color: #3b5b7a;
+  color: #FFF;
+}
+
+.btn-navy:hover, .btn-navy:active {
+  background-color: #3b5b7a;
+  color: #FFF;
+}
+
+.btn-pink.outline {
+    border: 2px solid #E3AE94;
+    color: #E3AE94;
+}
+
+.btn-pink.outline:hover, .btn-pink.outline:focus, .btn-pink.outline:active, .btn-pink.outline.active, .open > .dropdown-toggle.btn-pink {
+    color: #FEFBF3;
+    border-color: #E3AE94;
+}
+
+.btn-pink.outline:active, .btn-pink.outline.active {
+    border-color: #E3AE94;
+    color: #977563;
+    box-shadow: none;
+}
+
+.btn-yellow.outline {
+    border: 2px solid #FBBF46;
+    color: #FBBF46;
+}
+
+.btn-yellow.outline:hover, .btn-yellow.outline:focus, .btn-yellow.outline:active, .btn-yellow.outline.active, .open > .dropdown-toggle.btn-yellow {
+    color: #FEFBF3;
+    border-color: #FBBF46;
+}
+
+.btn-yellow.outline:active, .btn-yellow.outline.active {
+    border-color: #FBBF46;
+    color: #A57F29;
+    box-shadow: none;
+}
+
+.btn-blue.outline {
+    border: 2px solid #BBD5D0;
+    color: #BBD5D0;
+}
+
+.btn-blue.outline:hover, .btn-blue.outline:focus, .btn-blue.outline:active, .btn-blue.outline.active, .open > .dropdown-toggle.btn-blue {
+    color: #FEFBF3;
+    border-color: #BBD5D0;
+}
+
+.btn-blue.outline:active, .btn-blue.outline.active {
+    border-color: #BBD5D0;
+    color: #7D908E;
+    box-shadow: none;
+}
+
+.btn-purple.outline {
+    border: 2px solid #9BA5B0;
+    color: #9BA5B0;
+}
+
+.btn-purple.outline:hover, .btn-purple.outline:focus, .btn-purple.outline:active, .btn-purple.outline.active, .open > .dropdown-toggle.btn-purple {
+    color: #FEFBF3;
+    border-color: #9BA5B0;
+}
+
+.btn-purple.outline:active, .btn-purple.outline.active {
+    border-color: #9BA5B0;
+    color: #686F77;
+    box-shadow: none;
+}
+
+/*.btn {
+    padding: 12px 24px;
+    border: 0 none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 0;
+    width: 190px;
+    transition: all 0.3s ease 0s;
+    margin-bottom: 10px;
+}*/
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-pink {
+    background: #E3AE94;
+    color: #FEFBF3;
+}
+
+.btn-pink:hover, .btn-pink:focus, .btn-pink:active, .btn-pink.active, .open > .dropdown-toggle.btn-pink {
+    background: #E3AE94;
+}
+
+.btn-pink:active, .btn-pink.active {
+    background: #E3AE94;
+    box-shadow: none;
+}
+
+.btn-yellow {
+    background: #FBBF46;
+    color: #FEFBF3;
+}
+
+.btn-yellow:hover, .btn-yellow:focus, .btn-yellow:active, .btn-yellow.active, .open > .dropdown-toggle.btn-yellow {
+    background: #FBBF46;
+}
+
+.btn-yellow:active, .btn-yellow.active {
+    background: #FBBF46;
+    box-shadow: none;
+}
+
+.btn-blue {
+    background: #BBD5D0;
+    color: #28394A;
+}
+
+.btn-blue:hover, .btn-blue:focus, .btn-blue:active, .btn-blue.active, .open > .dropdown-toggle.btn-blue {
+    background: #a6c4be;
+}
+
+.btn-blue:active, .btn-blue.active {
+    background: #BBD5D0;
+    box-shadow: none;
+}
+
+.btn-purple {
+    background: #9BA5B0;
+    color: #FEFBF3;
+}
+
+.btn-purple:hover, .btn-purple:focus, .btn-purple:active, .btn-purple.active, .open > .dropdown-toggle.btn-purple {
+    background: #9BA5B0;
+}
+
+.btn-purple:active, .btn-purple.active {
+    background: #9BA5B0;
+    box-shadow: none;
+}
+
+.masthead {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-color: #28394A;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media (min-width: 992px) {
+    .masthead {
+      height: 100vh; }
