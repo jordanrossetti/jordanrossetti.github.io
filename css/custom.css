@@ -67,6 +67,14 @@ h4 {
   color: #28394A;
 }
 
+#announcement-banner {
+  text-align: center;
+  font-weight: bold;
+  color: #3c763d;
+  background-color: #bbd5d0;
+  padding: 0.25em;
+}
+
 .top-hello {
   font-family: 'Vibur', cursive;
   font-size: 45px;
@@ -332,7 +340,7 @@ h4 {
   display: table;
   width: 100%;
   height: auto;
-  padding-top: 8rem;
+  padding-top: 6rem;
   padding-bottom: 8rem;
   background-color: #28394A;
   background-position: center center;
@@ -341,3 +349,6 @@ h4 {
   @media (min-width: 992px) {
     .masthead {
       height: 100vh; }
+
+
+
