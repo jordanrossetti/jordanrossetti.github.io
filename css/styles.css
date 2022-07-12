@@ -19,30 +19,39 @@ body {
 	background-color: #ad563e;
 }
 
-h1 {
+.container {
+	margin: 0 10%;
+}
+
+.container h1 {
 	font-family: "Bright", Arial, sans-serif;
 	font-size: 6em;
 	font-weight: normal;
+	text-align: center;
 	color: white;
 	margin: 0;
 }
 
-p {
+.container p {
 	font-family: Arial, sans-serif;
 	text-align: center;
 	color: white;
 }
 
 .link-container {
+	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	margin-top: 0.5em;
 }
 
-a {
+.link-container a {
 	font-family: Arial, sans-serif;
 	text-decoration: none;
+	text-align: center;
 	color: white;
 	margin: 0.5em;
 	padding: 0.8em;
 	border: 1px solid white;
+	flex: 1 0 auto;
 }
