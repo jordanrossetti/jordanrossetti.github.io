@@ -1,0 +1,48 @@
+@font-face {
+	font-family: "Bright";
+	src: url("fonts/Bright-WOFF.woff") format('woff');
+}
+
+@font-face {
+	font-family: "Bright-Italic";
+	src: url("fonts/Bright-Italic-WOFF.woff") format('woff');
+	font-style: italic;
+}
+
+body {
+	height: 100vh;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #ad563e;
+}
+
+h1 {
+	font-family: "Bright", Arial, sans-serif;
+	font-size: 6em;
+	font-weight: normal;
+	color: white;
+	margin: 0;
+}
+
+p {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	color: white;
+}
+
+.link-container {
+	flex-direction: row;
+	margin-top: 0.5em;
+}
+
+a {
+	font-family: Arial, sans-serif;
+	text-decoration: none;
+	color: white;
+	margin: 0.5em;
+	padding: 0.8em;
+	border: 1px solid white;
+}
